@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.big {
+    font-size: 24px;
+}
+
+#special {
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+div.box {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
