@@ -69,11 +69,11 @@ body {
 }
 
 .pricing-card.recommended {
-  border: 2px solid #1f2328;
+  border: 2px solid green;
 }
 
 .recommended-badge {
-  background: #1f2328;
+  background: green;
   color: #fff;
   text-align: center;
   padding: 6px;
