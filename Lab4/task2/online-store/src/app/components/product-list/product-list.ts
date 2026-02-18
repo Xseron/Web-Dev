@@ -13,10 +13,10 @@ export class ProductList {
   products: Product[] = [
     {
       id: 1,
-      name: 'Apple iPhone 16 128GB',
+      name: 'Nike Air Max 270',
       description:
-        'Флагманский смартфон Apple с процессором A18 Bionic и улучшенной камерой 48 МП. Поддержка Apple Intelligence, Dynamic Island и зарядка MagSafe. Доступен в 6 цветах с аккумулятором на весь день.',
-      price: 489990,
+        'Кроссовки Nike Air Max 270 с максимальной воздушной подушкой для комфорта весь день. Лёгкий сетчатый верх, резиновая подошва с отличным сцеплением. Классический чёрный цвет подойдёт к любому образу.',
+      price: 54990,
       rating: 4.8,
       image: 'https://resources.cdn-kaspi.kz/img/m/p/h15/h40/86316415189022.jpg?format=gallery-medium',
       images: [
@@ -28,11 +28,11 @@ export class ProductList {
     },
     {
       id: 2,
-      name: 'Samsung Galaxy S24 256GB',
+      name: 'Colorblock Розовый набор',
       description:
-        'Мощный Android-флагман с процессором Snapdragon 8 Gen 3 и AI-функциями Galaxy AI. Экран Dynamic AMOLED 2X 6.2" с частотой 120 Гц и тройная камера 50 МП. Стеклянный корпус Corning Gorilla Glass Armor.',
-      price: 379990,
-      rating: 4.7,
+        'Яркий подарочный набор в розовом цвете в стиле colorblock. Стильное оформление, идеально подойдёт как подарок на любой праздник. Включает несколько предметов в единой цветовой гамме.',
+      price: 12990,
+      rating: 4.5,
       image: 'https://resources.cdn-kaspi.kz/img/m/p/h0e/hae/85460634173470.jpg?format=gallery-medium',
       images: [
         'https://resources.cdn-kaspi.kz/img/m/p/h0e/hae/85460634173470.jpg?format=gallery-medium',
@@ -43,10 +43,10 @@ export class ProductList {
     },
     {
       id: 3,
-      name: 'Xiaomi Redmi Note 13 Pro 256GB',
+      name: 'Oversized Кофта унисекс',
       description:
-        'Смартфон среднего класса с камерой 200 МП и AMOLED-дисплеем 6.67" 120 Гц. Оснащён процессором Snapdragon 7s Gen 2 и аккумулятором 5100 мАч с быстрой зарядкой 67 Вт. Отличное соотношение цены и качества.',
-      price: 169990,
+        'Стильная кофта оверсайз из мягкого хлопка с флисовой подкладкой. Свободный крой подойдёт как для мужчин, так и для женщин. Отлично сочетается с джинсами и кроссовками, подходит для повседневной носки.',
+      price: 18990,
       rating: 4.6,
       image: 'https://resources.cdn-kaspi.kz/img/m/p/ha4/h84/85912983797790.jpg?format=gallery-medium',
       images: [
