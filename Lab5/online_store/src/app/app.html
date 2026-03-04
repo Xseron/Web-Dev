@@ -1,0 +1,29 @@
+<div class="app">
+  <header class="app-header">
+    <div class="header-content">
+      <h1 class="app-title"> Online Store</h1>
+      <p class="app-subtitle">Лучшие товары по лучшим ценам на Kaspi.kz</p>
+    </div>
+  </header>
+
+  <nav class="categories-nav" aria-label="Категории товаров">
+    @for (category of categories; track category.id) {
+      <button
+        class="category-btn"
+        [class.active]="selectedCategoryId() === category.id"
+        (click)="selectCategory(category.id)"
+      >
+        {{ category.name }}
+      </button>
+    }
+  </nav>
+
+  @if (selectedCategoryId() !== null) {
+    <app-product-list [products]="selectedProducts()" />
+  } @else {
+    <div class="welcome">
+      <p class="welcome-title">Выберите категорию</p>
+      <p class="welcome-hint">Нажмите на одну из категорий выше, чтобы увидеть товары</p>
+    </div>
+  }
+</div>

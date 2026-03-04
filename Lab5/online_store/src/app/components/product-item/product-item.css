@@ -1,0 +1,208 @@
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+}
+
+/* ── Image ───────────────────────────────────────────────────────────── */
+
+.card-image-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+}
+
+/* ── Body ────────────────────────────────────────────────────────────── */
+
+.card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.card-description {
+  font-size: 0.825rem;
+  color: #6b7280;
+  line-height: 1.55;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Rating ──────────────────────────────────────────────────────────── */
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star {
+  font-size: 1.1rem;
+  color: #d1d5db;
+}
+
+.star.filled {
+  color: #f59e0b;
+}
+
+.rating-value {
+  margin-left: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* ── Price ───────────────────────────────────────────────────────────── */
+
+.card-price {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ef4444;
+  margin: 0;
+}
+
+/* ── Likes ───────────────────────────────────────────────────────────── */
+
+.card-likes {
+  display: flex;
+  align-items: center;
+}
+
+.btn-like {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1.5px solid #d1d5db;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.btn-like:hover {
+  border-color: #ef4444;
+  color: #ef4444;
+  background: #fff1f2;
+}
+
+.btn-like.liked {
+  border-color: #ef4444;
+  background: #fff1f2;
+  color: #ef4444;
+  animation: heartPop 0.25s ease;
+}
+
+@keyframes heartPop {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+
+/* ── Actions ─────────────────────────────────────────────────────────── */
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.btn-primary {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #dc2626;
+}
+
+.share-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-share {
+  flex: 1;
+  font-size: 0.8rem;
+  padding: 8px 10px;
+}
+
+.btn-wa {
+  background-color: #25d366;
+  color: #ffffff;
+}
+
+.btn-wa:hover {
+  background-color: #1da851;
+}
+
+.btn-tg {
+  background-color: #229ed9;
+  color: #ffffff;
+}
+
+.btn-tg:hover {
+  background-color: #1a7fb5;
+}
+
+.btn-delete {
+  background-color: #f3f4f6;
+  color: #6b7280;
+  border: 1.5px solid #e5e7eb;
+}
+
+.btn-delete:hover {
+  background-color: #fee2e2;
+  color: #ef4444;
+  border-color: #fca5a5;
+}

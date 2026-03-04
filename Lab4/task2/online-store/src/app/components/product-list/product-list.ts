@@ -37,7 +37,7 @@ export class ProductList {
       images: [
         'https://resources.cdn-kaspi.kz/img/m/p/h0e/hae/85460634173470.jpg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/h0e/hae/85460634173470.jpg?format=gallery-medium',
-        'https://resources.cdn-kaspi.kz/img/m/p/h0e/hae/85460634173470.jpg?format=gallery-medium',
+        'https://resources.cdn-kaspi.kz/img/m/p/ha4/h84/85912983797790.jpg?format=gallery-medium',
       ],
       link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-256gb-chernyi-titanium-117524369/?c=750000000',
     },
@@ -47,7 +47,7 @@ export class ProductList {
       description:
         'Стильная кофта оверсайз из мягкого хлопка с флисовой подкладкой. Свободный крой подойдёт как для мужчин, так и для женщин. Отлично сочетается с джинсами и кроссовками, подходит для повседневной носки.',
       price: 18990,
-      rating: 4.6,
+      rating: 2,
       image: 'https://resources.cdn-kaspi.kz/img/m/p/ha4/h84/85912983797790.jpg?format=gallery-medium',
       images: [
         'https://resources.cdn-kaspi.kz/img/m/p/ha4/h84/85912983797790.jpg?format=gallery-medium',
