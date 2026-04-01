@@ -3,6 +3,7 @@ import { Home } from './components/home/home';
 import { Albums } from './components/albums/albums';
 import { AlbumDetail } from './components/album-detail/album-detail';
 import { AlbumPhotos } from './components/album-photos/album-photos';
+import { Dtorossyan } from './components/dtorossyan/dtorossyan';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -10,4 +11,5 @@ export const routes: Routes = [
   { path: 'albums', component: Albums },
   { path: 'albums/:id', component: AlbumDetail },
   { path: 'albums/:id/photos', component: AlbumPhotos },
+  { path: 'dtorossyan', component: Dtorossyan },
 ];
